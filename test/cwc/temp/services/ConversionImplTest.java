@@ -29,7 +29,7 @@ public class ConversionImplTest {
         ConversionImpl instance = new ConversionImpl();
         double expResult = 5.0;
         double result = instance.fahrenheitToCelcius(fahrenheitTemp);
-        assertEquals(expResult, result, 0.01);
+        assertEquals(expResult, result+10, 0.01);
     }
 
     @Test
